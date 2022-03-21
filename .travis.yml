@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js:
+  - "node"
+env:
+  global:
+    - COVERALLS_PARALLEL=false
+jobs:
+  include:
+    - script: COVERALLS_FLAG_NAME=test-1 make test-coveralls-1
+notifications:
+  webhooks: https://coveralls.io/webhook
