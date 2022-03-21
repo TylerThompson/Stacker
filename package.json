@@ -1,0 +1,36 @@
+{
+  "name": "@swampboy/stacker",
+  "version": "1.0.0",
+  "description": "Capture stack traces with ease",
+  "license": "MIT",
+  "repository": "https://github.com/tylerthompson/stacker",
+  "author": {
+    "name": "Tyler Thompson",
+    "email": "tyler@tylerthompson.me",
+    "url": "https://github.com/tylerthompson"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags",
+    "test": "tap"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "escape-string-regexp": "^2.0.0"
+  },
+  "devDependencies": {
+    "bluebird": "3.7.2",
+    "coveralls": "3.1.1",
+    "nested-error-stacks": "2.1.0",
+    "pify": "5.0.0",
+    "q": "1.5.1",
+    "source-map-support": "0.5.21",
+    "tap": "16.0.0"
+  }
+}
