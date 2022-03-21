@@ -1,13 +1,13 @@
 {
-  "name": "@swampboy/stacker",
+  "name": "@tylerthompson/stacker",
   "version": "1.0.0",
   "description": "Capture stack traces with ease",
   "license": "MIT",
-  "repository": "https://github.com/tylerthompson/stacker",
+  "repository": "https://github.com/TylerThompson/Stacker",
   "author": {
     "name": "Tyler Thompson",
     "email": "tyler@tylerthompson.me",
-    "url": "https://github.com/tylerthompson"
+    "url": "https://github.com/TylerThompson"
   },
   "engines": {
     "node": ">=10"

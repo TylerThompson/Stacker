@@ -15,7 +15,7 @@
 ## Install
 
 ```
-$ npm install --save @swampboy/stacker
+$ npm install --save @tylerthompson/stacker
 ```
 
 ## Usage
